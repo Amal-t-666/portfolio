@@ -15,7 +15,7 @@ section{
     margin:0 auto;
     width: auto;
     height: 40px;
-    min-width:400px;
+    
  }
 .header{
     position: sticky;
@@ -208,7 +208,7 @@ img{
          }
 } */
 
-    @media (max-width:400px){
+    @media (max-width:365px){
 
         /* html{
            font-size: 50%;
