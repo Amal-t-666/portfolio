@@ -15,7 +15,7 @@ section{
     margin:0 auto;
     width: auto;
     height: 40px;
-    
+    min-width:auto;
  }
 .header{
     position: sticky;
