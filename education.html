@@ -7,23 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div class="nav">
-            <div class="icon">
-            <h2 class="logo">@malt</h2>
-            </div>
-    
-    
-        <div class="menu">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="">EDUCATION</a></li>
-                <li><a href="skills.html">SKILLS</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-        </div>
-        </div>
+    <header class="header">
+        <section class="flex">
+            <h2 class="logo">amal_t</h2>
+
+            <nav class="sidebar">
+                <a href="#" onclick="hideSidebar()"><svg xmlns="http://www.w3.org/2000/svg"  height="26px" viewBox="0 -960 960 960" width="26px"  fill="red"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#">Education</a>
+                <a href="skills.html">Skills</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        
+
+            <nav class="navbar">
+                <a class="hideOnMobile" href="">Home</a>
+                <a class="hideOnMobile" href="about.html">About</a>
+                <a class="hideOnMobile" href="education.html">Education</a>
+                <a class="hideOnMobile" href="skills.html">Skills</a>
+                <a class="hideOnMobile" href="contact.html">Contact</a>
+                <a  class="menu-btn" href="#" onclick=showSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26px"  fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+            </nav>
+        
+</section>
+</header>
         <section class="esec">
         <h2 class="head">Education</h2>
         <h2 class="course">Bachelor of Computer Application (BCA)</h2>
@@ -39,6 +47,6 @@
         <p id="course">Year: 2019</p>
         <p id="course">Percentage: 91%</p>
     </section>
-    
+    <script src="script.js"></script>
 </body>
 </html>
