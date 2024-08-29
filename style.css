@@ -209,7 +209,7 @@ img{
          }
 } */
 
-    @media (max-width:375px){
+    @media (max-width:500px){
 
         /* html{
            font-size: 50%;
@@ -228,7 +228,7 @@ img{
         background-color: rgb(96, 19, 213);
         box-shadow: var(--box-shadow);
         z-index: 1000;
-        min-width: 370px;
+        /* min-width: 370px; */
         width: auto;
      }
       .sidebar{
@@ -276,7 +276,7 @@ table{
     /* border: 2px; */
     width: auto;
     text-align: center;
-    /* margin: auto; */
+    margin: auto;
     font-size: 15px;
 
 }
