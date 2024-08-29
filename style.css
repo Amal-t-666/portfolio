@@ -22,6 +22,7 @@ section{
     background-color: rgb(96, 19, 213);
     box-shadow: var(--box-shadow);
     z-index: 1000;
+    min-width: 375px;
     width: auto;
  }
  .header .flex{
@@ -59,7 +60,7 @@ section{
 }
 #intro{
     font-size: 26px;
-    text-align: center;
+    text-align:center;
 }
 .btn{
     width: 100px;
@@ -208,12 +209,28 @@ img{
          }
 } */
 
-    @media (max-width:365px){
+    @media (max-width:375px){
 
         /* html{
            font-size: 50%;
         }
       */
+
+      section{
+        padding:3px;
+        margin:0 auto;
+        width: auto;
+        height: 40px;
+     }
+    .header{
+        position: sticky;
+        top:0; left:0; right:0;
+        background-color: rgb(96, 19, 213);
+        box-shadow: var(--box-shadow);
+        z-index: 1000;
+        min-width: 370px;
+        width: auto;
+     }
       .sidebar{
         width: 100%;
       }
@@ -233,6 +250,37 @@ img{
             color:black;
             transition: 0.4s ease-in-out;
          }
+         #me{
+            font-size: 20px;
+            text-align: justify;
+            margin: 9px 10px;
+        }
+        .esec{
+    margin: 0px 10px;
+}
+.head{
+    text-align: center;
+    font-size: 39px;
+    color: rgb(232, 123, 6);
+    margin-bottom: 22px;
+}
+.course{
+    text-align: center;
+    
+}
+#course{
+    text-align: center;
+    font-size: 15px;
+}
+table{
+    /* border: 2px; */
+    width: auto;
+    text-align: center;
+    /* margin: auto; */
+    font-size: 15px;
+
+}
+
 
       
     }     
